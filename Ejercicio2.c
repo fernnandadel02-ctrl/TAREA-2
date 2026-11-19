@@ -4,15 +4,16 @@ ejercicio 2
 
 #include <stdio.h>
 
-int main(void) 
-{
-    const double pi = 3.14159;
-    double radio, area, circunferencia;
+int main(void) {
+    float pi = 3.14159;
+    float radio;
+    float area;
+    float circunferencia;
 
-    printf("Ingresa el radio de tu circunferencia: ");
-    scanf("%lf", &radio);
+    printf("Inserta el radio de tu circunferencia: ");
+    scanf("%f", &radio);
 
-    área = pi * radio * radio;
+    area = pi * radio * radio;
     circunferencia = 2 * pi * radio;
 
     printf("\nArea = %.2f\n", area);
