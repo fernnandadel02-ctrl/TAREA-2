@@ -4,7 +4,8 @@ ejercicio 2
 
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     float pi = 3.14159;
     float radio;
     float area;
